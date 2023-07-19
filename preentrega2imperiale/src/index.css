@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.color__claro {
+  background-color: #fffffe;
+}
+
+.btn__fondo {
+  background-color: #ff8906;
+}
+
+.color__negro {
+  background-color: #0f0e17;
+  border-bottom: 3px solid #ff8906;
+}
+
+.navbar a {
+  color: #fffffe;
+}
+.navbar a:hover {
+  color: #ff8906;
+}
+
+.item-detail-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.margen {
+  margin: 25px 0;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+p.price {
+  font-weight: bold;
+}
+
+.description {
+  width: 70%;
+  text-align: justify;
+}
+
+.item-count-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.item-count-wrapper {
+  margin-left: auto;
+}
+
+.size {
+  max-width: 500px;
+  max-height: 300px;
+}
+
+.size2 {
+  width: 206px;
+  height: 290px;
+}
+.red {
+  color: red;
+}
+
+.negrita{
+  font-weight: bold;
+}
+
+.btnVolver{
+  /* //textAlign: 'right'; */
+  text-align: right;
+  margin-right: 20px;
+}
