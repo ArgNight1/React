@@ -10,6 +10,20 @@ const ItemDetailContainer = () => {
     const { id } = useParams();
 
     useEffect(() => {
+
+        // const fetchData = async () => {
+        //     try {
+        //         const data = await new Promise((resolve) => {
+        //             setTimeout(() => {
+        //                 resolve(id ? dbTemporal.filter(item => item.category === id) : dbTemporal)
+        //             }, 2000);
+        //         });
+        //         setItem(data);
+        //     } catch (error) {
+        //         console.log('Error:', error);
+        //     }
+        // };  hasta la linea 34
+
         const promesa = new Promise((resolve) => {
             setTimeout(() => {
                 resolve(dbTemporal.find(item => item.id === parseInt(id)))
