@@ -55,7 +55,7 @@ Walter Imperiale
 
 ## Sígueme en las redes sociales:
 
-[GitHub](https://github.com/ArgNight1) | [LinkedIn](https://www.linkedin.com/in/walter-imperiale/) | [![Instagram](https://img.freepik.com/vector-premium/icono-aplicacion-instagram-logotipo-redes-sociales-ilustracion-vectorial_277909-403.jpg)](https://www.instagram.com/imperiale.instructor/)
+[GitHub](https://github.com/ArgNight1) | [LinkedIn](https://www.linkedin.com/in/walter-imperiale/) | [Instagram](https://www.instagram.com/imperiale.instructor/)
 
 ---
 *El boton de contacto no funciona con la intencion de activar el componente Error.404.*
