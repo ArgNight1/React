@@ -1,8 +1,10 @@
-import React, { createContext, useEffect, useState } from 'react';
+import React, { createContext, useEffect, useState, useRef } from 'react';
+
 
 export const CartContext = createContext();
 export const CartProvider = ({ children }) => {
     const [cart, setCart] = useState([]);
+    const initialized = useRef(false);
 
     useEffect(() => {
         const cartFromStorage = JSON.parse(localStorage.getItem('cart')) || [];
@@ -10,7 +12,12 @@ export const CartProvider = ({ children }) => {
     }, []);
 
     useEffect(() => {
-        localStorage.setItem('cart', JSON.stringify(cart));
+        if (initialized.current) {
+            localStorage.setItem('cart', JSON.stringify(cart));
+            console.log("se ejecuta esto");
+        } else {
+            initialized.current = true;
+        }
     }, [cart]);
 
     const addItem = (item, cant) => {
