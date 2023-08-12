@@ -96,7 +96,7 @@ p.price {
 }
 
 .btnVolver{
-  /* //textAlign: 'right'; */
+  
   text-align: right;
   margin-right: 20px;
 }
@@ -137,11 +137,11 @@ p.price {
 
 .cart-table {
   border-collapse: collapse;
-  width: 80%; /* Limitar el ancho de la tabla al 80% */
-  margin: 20px auto; /* Centrar la tabla en la página */
+  width: 80%; 
+  margin: 20px auto; 
 }
 
-/* Estilos para las filas de la tabla */
+
 .cart-row {
   display: flex;
   justify-content: space-between;
@@ -150,22 +150,12 @@ p.price {
   padding: 10px 0;
 }
 
-/* Estilos para las imágenes en miniatura */
+
 .cart-thumbnail {
   max-width: 50px;
   height: auto;
 }
 
-/* Estilos para los encabezados de las columnas */
-.cart-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #f4f4f4;
-  font-weight: bold;
-  padding: 10px 0;
-  border-bottom: 1px solid #ccc;
-}
 
 .cart-header {
   display: flex;
@@ -177,14 +167,24 @@ p.price {
   border-bottom: 1px solid #ccc;
 }
 
-/* Estilos para las celdas de la tabla */
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4f4f4;
+  font-weight: bold;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+
 .cart-details {
   flex: 1;
-  padding: 10px; /* Ajusta el padding aquí para alinear el contenido */
+  padding: 10px;
   text-align: center;
 }
 
-/* Estilos para el total a pagar */
+
 .cart-total {
   margin-top: 20px;
   margin-right: 150PX;
